@@ -1,0 +1,124 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../assets/images/mumbai_background-rmbg.png");
+  /* filter: drop-shadow(3px 0px 4px #222222a3); */
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position-y: 100%;
+  background-position-x: 50%;
+}
+.header {
+  margin: 0 auto;
+  padding: 0 15px;
+  /* border-bottom: 1px solid #000; */
+  .logo {
+    margin: 15px 0;
+    img {
+      width: 60px;
+      padding: 13px;
+      background-color: rgb(241, 241, 241);
+      border-radius: 100%;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  .menu {
+    margin: 0 0 15px 0;
+    .page-links {
+      margin: auto;
+      ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+        margin: 0;
+        li {
+          a {
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+            text-decoration: none;
+            margin: 0 15px;
+          }
+          a:hover {
+            color: #eb4040;
+          }
+        }
+      }
+    }
+  }
+}
+/* .body {
+  width: 80%;
+  margin: auto;
+  .container {
+    margin: auto;
+    h1 {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 350px;
+      font-weight: 900;
+      line-height: 0.85;
+      background-image: url("../../../assets/images/mumbai_background.jpeg");
+      background-size: cover;
+      background-position: center 65%;
+      background-repeat: no-repeat;
+      background-clip: text;
+      color: transparent;
+      overflow: hidden;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      padding-top: 5px;
+    }
+    form {
+      width: 100%;
+      justify-content: center;
+      margin: 25px auto;
+      input {
+        width: 50%;
+        padding: 10px;
+        outline: none;
+        border-radius: 10px;
+        border: 1px solid #000;
+        margin-right: 25px;
+      }
+      button {
+        border-radius: 10px;
+        border: 1px solid #000;
+        padding: 10px 20px;
+        background-color: #f32d2d;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      button:hover {
+        background-color: #b82222;
+      }
+    }
+  }
+}
+.footer {
+  width: 80%;
+  margin: auto auto 0;
+  padding: 0 15px;
+  border-top: 1px solid #000;
+  p {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+  }
+} */
+@media only screen and (min-width: 600px) {
+  .page {
+    background-size: 100%;
+  }
+}
